@@ -1,0 +1,20 @@
+##### CONFIG FILE #####
+
+
+### DISCORD ###
+# To see how to setup a discord bot : https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
+
+discord:
+  token: token  # change it with your bot's token
+  guild_id: id # change it with your server's id (right click on your server's logo -> copy id)
+  channel: channelname # change it with the channel's name of your choice
+
+
+
+### SCHEDULER ###
+# Time of the day when the message will be sent, it's better to set the time after the tax upkeep
+
+scheduler:
+  hour: 8
+  minutes: 0 # do not put 0 if < 10 (use 9 for 9min)
+  frequence: 86400000 # 24h = 1000 * 60 * 60 * 24 // do not change it except for the test
