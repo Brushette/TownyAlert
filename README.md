@@ -1,7 +1,7 @@
 # TownyAlert
 
 * Let your players know if they don't have enought money to pay the taxes until the end of the week.
-* Let the players know each town and nation has been deleted due to taxes.
+* Let the players know each town will be deleted due to taxes.
 
 ## Requirement
 
